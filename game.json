@@ -155,6 +155,114 @@
         "name": "asets\\Andar-4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Parado-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Parado-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Moneda-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moneda-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-1-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -183,27 +291,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.08,
+        "zoomFactor": 0.6599999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 608,
-          "layer": "",
-          "name": "Fondo",
-          "persistentUuid": "5444e00e-d469-44dc-98a8-2f9eb0b4157a",
-          "width": 1080.888916015625,
-          "x": -6,
-          "y": -1,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -230,36 +323,6 @@
           "x": 1746,
           "y": 501,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Slime",
-          "persistentUuid": "650b7583-7fee-45a1-82ed-f966c1798c6d",
-          "width": 0,
-          "x": 804,
-          "y": 385,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 48.39297103881836,
-          "layer": "",
-          "name": "Slime",
-          "persistentUuid": "7543bc2f-94bf-40da-b395-c097f7909d53",
-          "width": 48.39297103881836,
-          "x": 136.40255737304688,
-          "y": 188.73162841796875,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -323,21 +386,119 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "bbc3551f-5061-4b57-8d7f-e7bf423d781c",
+          "width": 25,
+          "x": 250,
+          "y": 218,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "name": "Pared",
+          "persistentUuid": "14734f82-2e5a-4b3b-9762-10b508ea9ea6",
+          "width": 25,
+          "x": 110,
+          "y": 218,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "00423f0d-f2bb-4fc0-8848-ed95025f3d2a",
+          "width": 32,
+          "x": 139,
+          "y": 206,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "31ccbec9-fefa-4771-b2d4-7dd14b83681b",
+          "width": 32,
+          "x": 172,
+          "y": 206.32432556152344,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "1fb24e57-526e-4ce6-9990-ab913c492e78",
+          "width": 32,
+          "x": 206,
+          "y": 205.32432556152344,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 887,
+          "layer": "",
+          "name": "Fondo",
+          "persistentUuid": "72ac5cf6-3989-4ecd-9028-616a8ec386e0",
+          "width": 887,
+          "x": -11,
+          "y": -85,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
           "assetStoreId": "",
-          "name": "Fondo",
+          "name": "Suelo",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "NewSprite",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -346,7 +507,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "asets\\fondo.jpg",
+                      "image": "NewSprite-1-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -369,7 +530,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Suelo",
+          "name": "Pared",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -377,10 +538,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -395,7 +556,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite-1.png",
+                      "image": "NewSprite-1-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -426,6 +587,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -438,9 +601,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -453,11 +614,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "asets\\personaje.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\Parado-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -470,7 +631,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5.020910263061523,
+                            "y": 5.874884605407715
+                          },
+                          {
+                            "x": 25.272296905517578,
+                            "y": 5.630891799926758
+                          },
+                          {
+                            "x": 27.468229293823242,
+                            "y": 25.63828468322754
+                          },
+                          {
+                            "x": 4.776917934417725,
+                            "y": 25.882278442382812
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -485,8 +665,8 @@
                   "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "asets\\Andar-1-0.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\Andar-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -499,11 +679,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5.020910263061523,
+                            "y": 5.874884605407715
+                          },
+                          {
+                            "x": 25.272296905517578,
+                            "y": 5.630891799926758
+                          },
+                          {
+                            "x": 27.468229293823242,
+                            "y": 25.63828468322754
+                          },
+                          {
+                            "x": 4.776917934417725,
+                            "y": 25.882278442382812
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "asets\\Andar-2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\Andar-2-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -516,11 +715,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5.020910263061523,
+                            "y": 5.874884605407715
+                          },
+                          {
+                            "x": 25.272296905517578,
+                            "y": 5.630891799926758
+                          },
+                          {
+                            "x": 27.468229293823242,
+                            "y": 25.63828468322754
+                          },
+                          {
+                            "x": 4.776917934417725,
+                            "y": 25.882278442382812
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "asets\\Andar-3.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\Andar-3-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -533,11 +751,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5.020910263061523,
+                            "y": 5.874884605407715
+                          },
+                          {
+                            "x": 25.272296905517578,
+                            "y": 5.630891799926758
+                          },
+                          {
+                            "x": 27.468229293823242,
+                            "y": 25.63828468322754
+                          },
+                          {
+                            "x": 4.776917934417725,
+                            "y": 25.882278442382812
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "asets\\Andar-4.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\Andar-4-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -550,7 +787,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5.020910263061523,
+                            "y": 5.874884605407715
+                          },
+                          {
+                            "x": 25.272296905517578,
+                            "y": 5.630891799926758
+                          },
+                          {
+                            "x": 27.468229293823242,
+                            "y": 25.63828468322754
+                          },
+                          {
+                            "x": 4.776917934417725,
+                            "y": 25.882278442382812
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -579,7 +835,7 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "maxSpeed": 100,
+              "maxSpeed": 250,
               "name": "PlatformerObject",
               "slopeMaxAngle": 60,
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -619,127 +875,310 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Moneda",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Moneda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Moneda-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Fondo",
+          "tags": "",
+          "texture": "NewFile-1-1-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Player",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "Slime",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Slime",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateRightKey"
-              },
-              "parameters": [
-                "Slime",
-                "PlatformerObject"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Slime",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Slime",
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::IsOnFloor"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "",
+                    "1"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Right"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Moneda",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Moneda",
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "",
-                "0"
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Enemy",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Slime",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyForce"
+                  },
+                  "parameters": [
+                    "Slime",
+                    "",
+                    "80",
+                    "0",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Slime",
+                    "Pared",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
