@@ -167,42 +167,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "asets/Andar-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "asets\\Andar-1-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "asets/Andar-2-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "asets\\Andar-2-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "asets/Andar-3-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "asets\\Andar-3-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "asets/Andar-4-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "asets\\Andar-4-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewSprite-1-0.png",
         "kind": "image",
         "metadata": "",
@@ -347,15 +311,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewFile-1-0-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-0-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewSprite2-1-1.png",
         "kind": "image",
         "metadata": "",
@@ -380,6 +335,87 @@
         "name": "NewSprite2-1-1-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-1-0-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-1-0-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-1-0-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Cayendo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Cayendo-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/Andar-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\Andar-4-0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -398,6 +434,12 @@
       "name": "vidas",
       "type": "number",
       "value": 3
+    },
+    {
+      "folded": true,
+      "name": "Muerto",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -421,7 +463,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.38999999999999996,
+        "zoomFactor": 0.73,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -543,21 +585,6 @@
           "x": 15,
           "y": 9,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "name": "Moneda",
-          "persistentUuid": "ec30284c-fc28-4ec3-b243-de568b942811",
-          "width": 32,
-          "x": 307,
-          "y": 311,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1394,8 +1421,8 @@
                             "y": 5.874884605407715
                           },
                           {
-                            "x": 25.272296905517578,
-                            "y": 5.630891799926758
+                            "x": 25.299999237060547,
+                            "y": 5.75
                           },
                           {
                             "x": 24.29632568359375,
@@ -1422,42 +1449,6 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "asets\\Andar-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 5.020910263061523,
-                            "y": 5.874884605407715
-                          },
-                          {
-                            "x": 25.272296905517578,
-                            "y": 5.630891799926758
-                          },
-                          {
-                            "x": 24.29632568359375,
-                            "y": 25.63828468322754
-                          },
-                          {
-                            "x": 4.083763122558594,
-                            "y": 26.112140655517578
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
                       "image": "asets\\Andar-2-0.png",
                       "points": [],
                       "originPoint": {
@@ -1478,8 +1469,8 @@
                             "y": 5.874884605407715
                           },
                           {
-                            "x": 25.272296905517578,
-                            "y": 5.630891799926758
+                            "x": 25.299999237060547,
+                            "y": 5.75
                           },
                           {
                             "x": 24.29632568359375,
@@ -1514,8 +1505,8 @@
                             "y": 5.874884605407715
                           },
                           {
-                            "x": 25.272296905517578,
-                            "y": 5.630891799926758
+                            "x": 25.299999237060547,
+                            "y": 5.75
                           },
                           {
                             "x": 24.29632568359375,
@@ -1550,8 +1541,56 @@
                             "y": 5.874884605407715
                           },
                           {
-                            "x": 25.272296905517578,
-                            "y": 5.630891799926758
+                            "x": 25.299999237060547,
+                            "y": 5.75
+                          },
+                          {
+                            "x": 24.29632568359375,
+                            "y": 25.63828468322754
+                          },
+                          {
+                            "x": 4.083763122558594,
+                            "y": 26.112140655517578
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cayendo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\Cayendo-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5.020910263061523,
+                            "y": 5.874884605407715
+                          },
+                          {
+                            "x": 25.299999237060547,
+                            "y": 5.75
                           },
                           {
                             "x": 24.29632568359375,
@@ -1855,7 +1894,7 @@
           "height": 32,
           "name": "Muerte",
           "tags": "",
-          "texture": "NewFile-1-0-1.png",
+          "texture": "NewFile-1-0-1-1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -2187,7 +2226,7 @@
                     "",
                     "\"cronometroInicioEscena\"",
                     ">",
-                    "1"
+                    "0.5"
                   ]
                 }
               ],
@@ -2215,7 +2254,7 @@
                     "",
                     "\"cronometroInicioEscena\"",
                     "<",
-                    "1"
+                    "0.5"
                   ]
                 }
               ],
@@ -2231,6 +2270,63 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -2509,6 +2605,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Lifes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2579,43 +2676,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ChangeAnimation"
+                    "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "Vidas",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreAutourPos"
-                  },
-                  "parameters": [
-                    "Player",
-                    "0",
-                    "0",
-                    "0",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "vidas",
-                    "-",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"cronometroInicioEscena\""
+                    "Muerto",
+                    "True"
                   ]
                 }
               ]
@@ -2639,6 +2704,52 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Muerto",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Variables",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Muerto",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cronometroInicioEscena\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ChangeAnimation"
                   },
                   "parameters": [
@@ -2671,11 +2782,11 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
+                    "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "",
-                    "\"cronometroInicioEscena\""
+                    "Muerto",
+                    "False"
                   ]
                 }
               ]
