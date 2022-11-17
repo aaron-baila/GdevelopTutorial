@@ -263,13 +263,110 @@
         "name": "NewFile-1-1-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Muerte-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Muerte-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Moneda-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moneda-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Moneda-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moneda-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/creature-sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\creature-sheet.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/creature-sheet-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\creature-sheet-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/creature-sheet-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\creature-sheet-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/creature-sheet-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\creature-sheet-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asets/creature-sheet-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asets\\creature-sheet-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "direccionSlime",
+      "type": "number",
+      "value": 1
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -291,7 +388,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6599999999999997,
+        "zoomFactor": 0.36999999999999994,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -304,9 +401,9 @@
           "layer": "",
           "name": "Suelo",
           "persistentUuid": "3d1cda21-2df1-4a8f-9b72-f46acb84ab2f",
-          "width": 291.30670166015625,
-          "x": -17,
-          "y": 237.75718688964844,
+          "width": 362.30670166015625,
+          "x": -88,
+          "y": 113.75718688964844,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -314,14 +411,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 83,
           "layer": "",
           "name": "Slime",
           "persistentUuid": "6da0e0ee-3847-4251-a3bb-5c06747866a9",
-          "width": 0,
-          "x": 1746,
-          "y": 501,
+          "width": 83,
+          "x": 773,
+          "y": 3,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -330,13 +427,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 51.8722038269043,
+          "height": 117.03195190429688,
           "layer": "",
           "name": "Player",
           "persistentUuid": "563deb1e-3c73-4078-8ab9-b05f9d250038",
-          "width": 51.8722038269043,
-          "x": 43.095848083496094,
-          "y": 159,
+          "width": 117.03195190429688,
+          "x": 0,
+          "y": 0,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -390,43 +487,148 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 40,
-          "layer": "",
-          "name": "Pared",
-          "persistentUuid": "bbc3551f-5061-4b57-8d7f-e7bf423d781c",
-          "width": 25,
-          "x": 250,
-          "y": 218,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 40,
-          "layer": "",
-          "name": "Pared",
-          "persistentUuid": "14734f82-2e5a-4b3b-9762-10b508ea9ea6",
-          "width": 25,
-          "x": 110,
-          "y": 218,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 32,
           "layer": "",
           "name": "Moneda",
           "persistentUuid": "00423f0d-f2bb-4fc0-8848-ed95025f3d2a",
           "width": 32,
-          "x": 139,
-          "y": 206,
+          "x": 317,
+          "y": 34,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 47,
+          "layer": "Fondo",
+          "name": "ContadorMonedas",
+          "persistentUuid": "4bda196d-e8a4-409c-ba0d-cb4234694080",
+          "width": 259,
+          "x": 15,
+          "y": 9,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "ec30284c-fc28-4ec3-b243-de568b942811",
+          "width": 32,
+          "x": 307,
+          "y": 311,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 24,
+          "layer": "",
+          "name": "Muerte",
+          "persistentUuid": "aa9e9272-60f3-407f-844b-116144e7a4a5",
+          "width": 9424,
+          "x": -2776,
+          "y": 583,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "1d3c8855-19dd-4ecf-9c4f-65b0920c03a7",
+          "width": 291.35797119140625,
+          "x": 769.6420288085938,
+          "y": 91.44950866699219,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "f7f8a61c-29ec-43e4-bec8-1c1f2e896ce6",
+          "width": 148.30670166015625,
+          "x": 961.94970703125,
+          "y": 394.01361083984375,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "a487b74d-dc26-4c95-afa6-b5a4c5c16c45",
+          "width": 148.30670166015625,
+          "x": 1313.2318115234375,
+          "y": -449.5761413574219,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "ec4fd1cc-13f4-4854-b7bc-8cc3f83700b8",
+          "width": 148.30670166015625,
+          "x": 1100.4112548828125,
+          "y": -123.93510437011719,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "f6a5c19d-f473-40e3-96b5-20ba6c1f2f00",
+          "width": 148.30670166015625,
+          "x": 1769.4569091796875,
+          "y": -66.9845199584961,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "912230b3-4130-48df-a37b-ce9ec7cc5d77",
+          "width": 32,
+          "x": 251,
+          "y": 311,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -438,10 +640,10 @@
           "height": 32,
           "layer": "",
           "name": "Moneda",
-          "persistentUuid": "31ccbec9-fefa-4771-b2d4-7dd14b83681b",
+          "persistentUuid": "f6e0c0e4-f844-4c34-8016-153ef4891256",
           "width": 32,
-          "x": 172,
-          "y": 206.32432556152344,
+          "x": 372,
+          "y": 311,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -453,10 +655,10 @@
           "height": 32,
           "layer": "",
           "name": "Moneda",
-          "persistentUuid": "1fb24e57-526e-4ce6-9990-ab913c492e78",
+          "persistentUuid": "75e6dfcc-f9c4-4571-a10e-eb1328e3779a",
           "width": 32,
-          "x": 206,
-          "y": 205.32432556152344,
+          "x": 913,
+          "y": -73,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -465,14 +667,569 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 887,
+          "height": 32,
           "layer": "",
-          "name": "Fondo",
-          "persistentUuid": "72ac5cf6-3989-4ecd-9028-616a8ec386e0",
-          "width": 887,
-          "x": -11,
-          "y": -85,
+          "name": "Moneda",
+          "persistentUuid": "97a9cfc3-51d6-4bb7-b0f2-c93facbc0054",
+          "width": 32,
+          "x": 826,
+          "y": -73,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "b9f0533f-1465-4d16-bbf3-ccd5722e36f6",
+          "width": 32,
+          "x": 996,
+          "y": -72,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 660,
+          "layer": "Fondo",
+          "name": "NewSprite",
+          "persistentUuid": "d2c4658a-303d-4f64-a2a8-d9f982f4b74a",
+          "width": 1173.333251953125,
+          "x": -160,
+          "y": -31,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "3b9a7333-aefd-48fb-9d42-fbf84e0c91df",
+          "width": 148.30670166015625,
+          "x": 1269,
+          "y": 265.7572021484375,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "933e37d4-a49e-428c-8950-a0e9f0f1b1e4",
+          "width": 148.30670166015625,
+          "x": 1236.877685546875,
+          "y": 82.17696380615234,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "097d2bc1-1f9e-4b37-936d-7f3cc1e4687e",
+          "width": 148.30670166015625,
+          "x": 1666.50732421875,
+          "y": 226.62139892578125,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "24efd10e-acaf-4c1d-96c4-e2778355fb68",
+          "width": 148.30670166015625,
+          "x": 1701.01025390625,
+          "y": -403.00823974609375,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "8ae50174-b21e-4004-87eb-cef4f2c7aa9d",
+          "width": 148.30670166015625,
+          "x": 348.3786315917969,
+          "y": -424.06085205078125,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "2208f81f-6bf9-46b7-92b7-e30d27bf6ab7",
+          "width": 148.30670166015625,
+          "x": 1424.678955078125,
+          "y": -160.85060119628906,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "bd6fd66c-5d91-453b-ae75-f4c183885a2f",
+          "width": 148.30670166015625,
+          "x": 2059.97314453125,
+          "y": -507.909423828125,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "d10ef8e4-dcc2-4916-a3e8-31868f799295",
+          "width": 148.30670166015625,
+          "x": 2118.796630859375,
+          "y": -178.49766540527344,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "71c98555-6899-4e9c-b5a6-b12ebcd30e2a",
+          "width": 148.30670166015625,
+          "x": 2654.0908203125,
+          "y": -660.8505859375,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "d9217be5-42fc-4f30-b768-e44e1362a9a2",
+          "width": 148.30670166015625,
+          "x": 2030.561279296875,
+          "y": 133.2670440673828,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "90a4d873-4056-4eb1-82f6-3979056a1743",
+          "width": 148.30670166015625,
+          "x": 759.9730834960938,
+          "y": -760.8505859375,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "c91e2260-a9b0-4b52-9d81-cfa8010856b9",
+          "width": 148.30670166015625,
+          "x": 1283.50244140625,
+          "y": -849.0858764648438,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "5634395f-5d58-479b-bf85-b402d152d473",
+          "width": 148.30670166015625,
+          "x": 2524,
+          "y": 140.51437377929688,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "705ff2b2-efb3-4efc-9028-55fe5fcd8bc4",
+          "width": 148.30670166015625,
+          "x": 2187.447021484375,
+          "y": 27.09583282470703,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 83,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "54f7dd4b-2665-4b13-9f20-f377bc51901f",
+          "width": 83,
+          "x": 612.3579711914062,
+          "y": -332.69232177734375,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "df1a3707-8440-47fd-8c87-7d640de6d76a",
+          "width": 291.35797119140625,
+          "x": 609,
+          "y": -244.24281311035156,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "9552d8ff-cc9d-4c1a-af3d-23dfd7b5e234",
+          "width": 32,
+          "x": 752.3579711914062,
+          "y": -408.69232177734375,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "839d3bff-962f-4ff8-a523-2c794d925777",
+          "width": 32,
+          "x": 665.3579711914062,
+          "y": -408.69232177734375,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "ecf119c6-d754-4d3a-ba76-9e30a99ae958",
+          "width": 32,
+          "x": 835.3579711914062,
+          "y": -407.69232177734375,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 83,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "191ff28b-cd2a-44c6-9076-8034f111aaf6",
+          "width": 83,
+          "x": 1601.35791015625,
+          "y": -661.6923217773438,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "a2a9a3aa-8317-4793-a5e7-f76d1e47b405",
+          "width": 291.35797119140625,
+          "x": 1598,
+          "y": -573.2427978515625,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "38c81e40-69ff-4b62-ba2d-32fd5e4e0c71",
+          "width": 32,
+          "x": 1741.35791015625,
+          "y": -737.6923217773438,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "cb41d9b0-22e0-4b95-a052-f42eaff082a9",
+          "width": 32,
+          "x": 1654.35791015625,
+          "y": -737.6923217773438,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "dfb39ce3-2b85-4136-9bdd-3c5d91592a53",
+          "width": 32,
+          "x": 1824.35791015625,
+          "y": -736.6923217773438,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 83,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "3c60677c-c45e-4e49-9e56-eeeab9c37027",
+          "width": 83,
+          "x": 2256.35791015625,
+          "y": -380.69232177734375,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "5e5ff73e-35b9-4a22-9cd6-8d1334b07f94",
+          "width": 291.35797119140625,
+          "x": 2253,
+          "y": -292.2427978515625,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "2a374039-d056-4b1e-9063-5276901efdc2",
+          "width": 32,
+          "x": 2396.35791015625,
+          "y": -456.69232177734375,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "ba7309f6-e620-43de-b1ef-3f0e6bb44a58",
+          "width": 32,
+          "x": 2309.35791015625,
+          "y": -456.69232177734375,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "9037289e-cce2-427c-bbbd-dc04f751d6a1",
+          "width": 32,
+          "x": 2479.35791015625,
+          "y": -455.69232177734375,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 83,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "387f4b5f-adba-438b-8929-4541ac3b6eb1",
+          "width": 83,
+          "x": 2004.35791015625,
+          "y": 382.3077392578125,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "ce694cc5-9557-46ec-9925-90a7fe32e594",
+          "width": 291.35797119140625,
+          "x": 2001,
+          "y": 470.7572021484375,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "e7bedf22-3a50-4b15-bff9-c704607eeb94",
+          "width": 32,
+          "x": 2144.35791015625,
+          "y": 306.3077392578125,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "0f320576-e153-4a30-8928-c24fb660ed5b",
+          "width": 32,
+          "x": 2057.35791015625,
+          "y": 306.3077392578125,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "Moneda",
+          "persistentUuid": "0a437770-76c2-49a8-b84f-e1a5b2636869",
+          "width": 32,
+          "x": 2227.35791015625,
+          "y": 307.3077392578125,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20.24281120300293,
+          "layer": "",
+          "name": "Suelo",
+          "persistentUuid": "de8b0a21-58f1-467e-bab4-c75fd1649351",
+          "width": 148.30670166015625,
+          "x": 2528.306640625,
+          "y": 411.7572021484375,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -482,55 +1239,6 @@
         {
           "assetStoreId": "",
           "name": "Suelo",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewSprite-1-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "Pared",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -642,12 +1350,12 @@
                             "y": 5.630891799926758
                           },
                           {
-                            "x": 27.468229293823242,
+                            "x": 24.29632568359375,
                             "y": 25.63828468322754
                           },
                           {
-                            "x": 4.776917934417725,
-                            "y": 25.882278442382812
+                            "x": 4.083763122558594,
+                            "y": 26.112140655517578
                           }
                         ]
                       ]
@@ -690,12 +1398,12 @@
                             "y": 5.630891799926758
                           },
                           {
-                            "x": 27.468229293823242,
+                            "x": 24.29632568359375,
                             "y": 25.63828468322754
                           },
                           {
-                            "x": 4.776917934417725,
-                            "y": 25.882278442382812
+                            "x": 4.083763122558594,
+                            "y": 26.112140655517578
                           }
                         ]
                       ]
@@ -726,12 +1434,12 @@
                             "y": 5.630891799926758
                           },
                           {
-                            "x": 27.468229293823242,
+                            "x": 24.29632568359375,
                             "y": 25.63828468322754
                           },
                           {
-                            "x": 4.776917934417725,
-                            "y": 25.882278442382812
+                            "x": 4.083763122558594,
+                            "y": 26.112140655517578
                           }
                         ]
                       ]
@@ -762,12 +1470,12 @@
                             "y": 5.630891799926758
                           },
                           {
-                            "x": 27.468229293823242,
+                            "x": 24.29632568359375,
                             "y": 25.63828468322754
                           },
                           {
-                            "x": 4.776917934417725,
-                            "y": 25.882278442382812
+                            "x": 4.083763122558594,
+                            "y": 26.112140655517578
                           }
                         ]
                       ]
@@ -798,12 +1506,12 @@
                             "y": 5.630891799926758
                           },
                           {
-                            "x": 27.468229293823242,
+                            "x": 24.29632568359375,
                             "y": 25.63828468322754
                           },
                           {
-                            "x": 4.776917934417725,
-                            "y": 25.882278442382812
+                            "x": 4.083763122558594,
+                            "y": 26.112140655517578
                           }
                         ]
                       ]
@@ -824,6 +1532,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -836,9 +1546,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -846,16 +1554,16 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "creature-sheet",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "asets\\creature-2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\creature-sheet-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -868,7 +1576,134 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11.852703094482422,
+                            "y": 8.314810752868652
+                          },
+                          {
+                            "x": 20.392444610595703,
+                            "y": 9.290781021118164
+                          },
+                          {
+                            "x": 20.880430221557617,
+                            "y": 22.222389221191406
+                          },
+                          {
+                            "x": 11.364718437194824,
+                            "y": 22.95436668395996
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\creature-sheet-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11.852703094482422,
+                            "y": 8.314810752868652
+                          },
+                          {
+                            "x": 20.392444610595703,
+                            "y": 9.290781021118164
+                          },
+                          {
+                            "x": 20.880430221557617,
+                            "y": 22.222389221191406
+                          },
+                          {
+                            "x": 11.364718437194824,
+                            "y": 22.95436668395996
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\creature-sheet-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11.852703094482422,
+                            "y": 8.314810752868652
+                          },
+                          {
+                            "x": 20.392444610595703,
+                            "y": 9.290781021118164
+                          },
+                          {
+                            "x": 20.880430221557617,
+                            "y": 22.222389221191406
+                          },
+                          {
+                            "x": 11.364718437194824,
+                            "y": 22.95436668395996
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asets\\creature-sheet-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11.852703094482422,
+                            "y": 8.314810752868652
+                          },
+                          {
+                            "x": 20.392444610595703,
+                            "y": 9.290781021118164
+                          },
+                          {
+                            "x": 20.880430221557617,
+                            "y": 22.222389221191406
+                          },
+                          {
+                            "x": 11.364718437194824,
+                            "y": 22.95436668395996
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -891,12 +1726,29 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "looping": true,
+                  "timeBetweenFrames": 0.1429000049829483,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Moneda-1.png",
+                      "image": "Moneda-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Moneda-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -928,6 +1780,80 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ContadorMonedas",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Monedas: 0",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Muerte",
+          "tags": "",
+          "texture": "NewFile-1-0-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "asets\\fondo.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -959,11 +1885,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "MettreAutourPos"
                   },
                   "parameters": [
-                    "Slime",
-                    ""
+                    "Player",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
                   ]
                 }
               ]
@@ -997,7 +1926,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "",
+                    "=",
                     "1"
                   ]
                 }
@@ -1033,7 +1962,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "",
+                    "=",
                     "0"
                   ]
                 }
@@ -1098,7 +2027,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "Moneda",
+                    "Muerte",
                     "",
                     "",
                     ""
@@ -1108,11 +2037,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "MettreAutourPos"
                   },
                   "parameters": [
-                    "Moneda",
-                    ""
+                    "Player",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
                   ]
                 }
               ]
@@ -1134,27 +2066,173 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                    "value": "DepartScene"
                   },
                   "parameters": [
-                    "Slime",
-                    "PlatformerObject"
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Physics2::ApplyForce"
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cronometroSlime\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "direccionSlime",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
                   },
                   "parameters": [
                     "Slime",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Slime",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "direccionSlime",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Slime",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Slime",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
                     "",
-                    "80",
-                    "0",
+                    "\"cronometroSlime\"",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "direccionSlime",
+                    "*",
+                    "-1\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
                     "",
+                    "\"cronometroSlime\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Coins",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
                     ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "MonedasEnJuego",
+                    "=",
+                    "Count(Moneda)"
                   ]
                 }
               ]
@@ -1167,21 +2245,93 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Slime",
-                    "Pared",
+                    "Player",
+                    "Moneda",
                     "",
                     "",
                     ""
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Monedas",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Moneda",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "ContadorMonedas",
+                    "=",
+                    "\"Monedas: \"+Player.VariableString(Monedas)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Camera",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 8148328,
+          "ambientLightColorG": 6050880,
+          "ambientLightColorR": 8144680,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Fondo",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
         {
           "ambientLightColorB": 0,
           "ambientLightColorG": 13522664,
