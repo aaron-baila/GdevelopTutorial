@@ -416,6 +416,45 @@
         "name": "asets\\Andar-4-0.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Flat Dark/Left arrow button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Flat Dark/Right arrow button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Top arrow button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Top arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Flat Dark/Top arrow button.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -463,7 +502,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.38999999999999996,
+        "zoomFactor": 0.5299999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -578,7 +617,7 @@
           "angle": 0,
           "customSize": true,
           "height": 47,
-          "layer": "Fondo",
+          "layer": "Interfaz",
           "name": "ContadorMonedas",
           "persistentUuid": "4bda196d-e8a4-409c-ba0d-cb4234694080",
           "width": 259,
@@ -1298,13 +1337,73 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "Fondo",
+          "layer": "Interfaz",
           "name": "Vidas",
           "persistentUuid": "8bdcd2e7-d3f0-4d4a-99dd-883548b90018",
           "width": 0,
           "x": 5,
           "y": 40,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TopArrowButton",
+          "persistentUuid": "84d6ca77-77f1-4858-b546-56ff6378bf9a",
+          "width": 0,
+          "x": 1572,
+          "y": 508,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Movil",
+          "name": "LeftArrowButton",
+          "persistentUuid": "77f51af8-5886-4422-9ad9-d39d4a9e55d8",
+          "width": 0,
+          "x": 20,
+          "y": 460,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Movil",
+          "name": "RightArrowButton",
+          "persistentUuid": "f9ecb55a-3afb-4b77-9e68-d855f71329d8",
+          "width": 0,
+          "x": 185,
+          "y": 460,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Movil",
+          "name": "TopArrowButton",
+          "persistentUuid": "6bff54e5-b529-495e-b855-c238a51bd3e2",
+          "width": 0,
+          "x": 680,
+          "y": 460,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2021,6 +2120,140 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "NewSprite2-1-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
+          "name": "LeftArrowButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Left arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "0236c9d3f392e7c67c24858c9725a423057a0586e6569a46cdb60f9ac2cf3c88",
+          "name": "RightArrowButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Right arrow button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "9c727020616afdd6ba786b8af206a90481f07db0ca175ed6a4cc5b7e01c66d06",
+          "name": "TopArrowButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 0,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 2,
+              "topEdgeAnchor": 0,
+              "type": "AnchorBehavior::AnchorBehavior",
+              "useLegacyBottomAndRightAnchors": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Top arrow button.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2801,7 +3034,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Controles",
+          "folded": true,
+          "name": "Keys",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -2961,7 +3195,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Controller",
+          "folded": true,
+          "name": "Mandos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -3129,6 +3364,152 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Movil",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Up\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RightArrowButton",
+                    "1",
+                    "\"Left\"",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "LeftArrowButton",
+                    "1",
+                    "\"Left\"",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Down\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "TopArrowButton",
+                    "1",
+                    "\"Left\"",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject",
+                    "\"Jump\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -3139,6 +3520,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Fondo",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 150995058,
+          "ambientLightColorG": 6054000,
+          "ambientLightColorR": 8486240,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Interfaz",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -3164,9 +3556,24 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 8190936,
+          "ambientLightColorG": 6054000,
+          "ambientLightColorR": 8486240,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Movil",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
