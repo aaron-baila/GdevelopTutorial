@@ -9,7 +9,7 @@
   "properties": {
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
-    "orientation": "landscape",
+    "orientation": "default",
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
     "projectUuid": "24af412d-04f3-4550-a1e7-6a1847efa3e1",
@@ -18,12 +18,12 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Important Song",
+    "name": "Busca monedas",
     "description": "",
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "D:\\Proyectos videojuegos\\prueba2",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -44,8 +44,12 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
-    "authorIds": [],
-    "categories": [],
+    "authorIds": [
+      "SnzukWyjVEREqKlhK0H0cZWgoDo1"
+    ],
+    "categories": [
+      "platformer"
+    ],
     "playableDevices": [],
     "extensionProperties": [],
     "platforms": [
